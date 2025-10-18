@@ -1,0 +1,8 @@
+# JUCE / Xcode build ignores
+Builds/
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.DS_Store
+*.jucer.bak
+
