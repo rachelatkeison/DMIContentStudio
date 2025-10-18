@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="DMIContentStudioProj" name="DMI Content Studio" projectType="guiapp"
+              version="0.2.0" companyName="YourName" bundleIdentifier="com.yourname.DMIContentStudio"
+              jucerFormatVersion="1" displaySplashScreen="0" reportAppUsage="0"
+              cppLanguageStandard="17" companyWebsite="">
+  <MAINGROUP id="root" name="DMI Content Studio">
+    <GROUP id="{36EACFCB-83EF-4833-D01B-01E51A711F2A}" name="Source">
+      <GROUP id="{DAB55A03-4D38-EA95-A236-C2358535D5CC}" name="engine">
+        <FILE id="aHaYWM" name="MidiEngine.cpp" compile="1" resource="0" file="Source/engine/MidiEngine.cpp"/>
+        <FILE id="jpAaya" name="MidiEngine.h" compile="0" resource="0" file="Source/engine/MidiEngine.h"/>
+        <FILE id="I2VZtw" name="NRPN.cpp" compile="1" resource="0" file="Source/engine/NRPN.cpp"/>
+        <FILE id="HVRN9L" name="NRPN.h" compile="0" resource="0" file="Source/engine/NRPN.h"/>
+        <FILE id="KXoVqw" name="Sequencer.cpp" compile="1" resource="0" file="Source/engine/Sequencer.cpp"/>
+        <FILE id="BaxCUP" name="Sequencer.h" compile="0" resource="0" file="Source/engine/Sequencer.h"/>
+      </GROUP>
+      <GROUP id="{DB709BE3-11E9-62EE-C3BF-126233BA5790}" name="model">
+        <FILE id="MnHCzO" name="MidiClip.cpp" compile="1" resource="0" file="Source/model/MidiClip.cpp"/>
+        <FILE id="jk9KUC" name="MidiClip.h" compile="0" resource="0" file="Source/model/MidiClip.h"/>
+        <FILE id="ObFxG5" name="Project.cpp" compile="1" resource="0" file="Source/model/Project.cpp"/>
+        <FILE id="hFtzY1" name="Project.h" compile="0" resource="0" file="Source/model/Project.h"/>
+        <FILE id="J36BGS" name="StylePattern.cpp" compile="1" resource="0"
+              file="Source/model/StylePattern.cpp"/>
+        <FILE id="alATpK" name="StylePattern.h" compile="0" resource="0" file="Source/model/StylePattern.h"/>
+        <FILE id="ISY71a" name="VoiceProgram.cpp" compile="1" resource="0"
+              file="Source/model/VoiceProgram.cpp"/>
+        <FILE id="lVUChn" name="VoiceProgram.h" compile="0" resource="0" file="Source/model/VoiceProgram.h"/>
+      </GROUP>
+      <GROUP id="{93B263E3-4AE9-718E-5338-3EF869538C4F}" name="ui">
+        <FILE id="PuE4AQ" name="DeviceToolbar.cpp" compile="1" resource="0"
+              file="Source/ui/DeviceToolbar.cpp"/>
+        <FILE id="TeBJs2" name="DeviceToolbar.h" compile="0" resource="0" file="Source/ui/DeviceToolbar.h"/>
+        <FILE id="RVz0eZ" name="LookAndFeel.cpp" compile="1" resource="0" file="Source/ui/LookAndFeel.cpp"/>
+        <FILE id="jsxOeP" name="LookAndFeel.h" compile="0" resource="0" file="Source/ui/LookAndFeel.h"/>
+        <FILE id="UtJvNg" name="PianoRollComponent.cpp" compile="1" resource="0"
+              file="Source/ui/PianoRollComponent.cpp"/>
+        <FILE id="ddFHwb" name="PianoRollComponent.h" compile="0" resource="0"
+              file="Source/ui/PianoRollComponent.h"/>
+        <FILE id="pWeljf" name="StylePatternEditor.cpp" compile="1" resource="0"
+              file="Source/ui/StylePatternEditor.cpp"/>
+        <FILE id="yCBpoY" name="StylePatternEditor.h" compile="0" resource="0"
+              file="Source/ui/StylePatternEditor.h"/>
+        <FILE id="ZtqPab" name="TransportBar.cpp" compile="1" resource="0"
+              file="Source/ui/TransportBar.cpp"/>
+        <FILE id="iOkXVT" name="TransportBar.h" compile="0" resource="0" file="Source/ui/TransportBar.h"/>
+        <FILE id="EyyQIC" name="VoiceParameterEditor.cpp" compile="1" resource="0"
+              file="Source/ui/VoiceParameterEditor.cpp"/>
+        <FILE id="Byp4vS" name="VoiceParameterEditor.h" compile="0" resource="0"
+              file="Source/ui/VoiceParameterEditor.h"/>
+      </GROUP>
+      <GROUP id="{91BDB235-3CCE-95E6-C3FB-A316AF0FFAB0}" name="util">
+        <FILE id="MnuJF2" name="Commands.h" compile="0" resource="0" file="Source/util/Commands.h"/>
+        <FILE id="sk4u82" name="Persist.cpp" compile="1" resource="0" file="Source/util/Persist.cpp"/>
+        <FILE id="dzk9EA" name="Persist.h" compile="0" resource="0" file="Source/util/Persist.h"/>
+        <FILE id="L0d3pe" name="SMF.cpp" compile="1" resource="0" file="Source/util/SMF.cpp"/>
+        <FILE id="cOrmGd" name="SMF.h" compile="0" resource="0" file="Source/util/SMF.h"/>
+        <FILE id="uwpEuv" name="Undoable.cpp" compile="1" resource="0" file="Source/util/Undoable.cpp"/>
+        <FILE id="FwSEDf" name="Undoable.h" compile="0" resource="0" file="Source/util/Undoable.h"/>
+        <FILE id="M61oEd" name="Utilities.cpp" compile="1" resource="0" file="Source/util/Utilities.cpp"/>
+        <FILE id="kRt7VG" name="Utilities.h" compile="0" resource="0" file="Source/util/Utilities.h"/>
+      </GROUP>
+      <FILE id="N9kVfP" name="App.cpp" compile="1" resource="0" file="Source/App.cpp"/>
+      <FILE id="SKfoLw" name="App.h" compile="0" resource="0" file="Source/App.h"/>
+      <FILE id="OEoQbt" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="YoPhxZ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="iOyBMC" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="ahJDog" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <EXPORTFORMATS>
+    <XCODE_MAC xcLanguageStandard="gnu++17" osxSDK="default" osxCompatibility="10.13 SDK Default">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DMIContentStudio" optimisation="1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DMIContentStudio" optimisation="3"
+                       linkTimeOptimisation="1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
